@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_2021_02_vue_aws_app_hosting_1683194890803-pr-trigger-input-set
+  identifier: Build_2021_02_vue_aws_app_hosting_1683194890803prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_2021_02_vue_aws_app_hosting_1683194890803
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
